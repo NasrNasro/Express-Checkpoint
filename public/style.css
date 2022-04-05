@@ -1,0 +1,30 @@
+.menulinks {
+    display: flex;
+    justify-content: space-around;
+    width: 40%;
+}
+
+.menulinks li {
+    list-style: none;
+}
+
+.menulinks li a{
+    text-decoration: none;
+}
+
+.text{
+    color: #1b49df;
+    font-size: 25px;
+    font-family: monospace;
+    font-weight: bold;
+}
+
+.text:hover{
+    color:  red;
+}
+
+header {
+    position: sticky;
+    top: 0;
+    background-color: rgba(255, 255, 255, 0.9);
+}
